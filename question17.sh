@@ -17,6 +17,7 @@ git commit -m "commit2"
 git checkout branch2
 touch dir3/newfile2
 mv dir1/dir2/foo dir1/dir2/foo_modified
+rm dir3/bar
 git add .
 git commit -m "commit3"
 
