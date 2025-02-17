@@ -15,10 +15,11 @@ git add .
 git commit -m "commit2"
 
 git checkout branch2
+rm ./dir3/bar
 mv ./dir3 ./dir1/
 touch dir1/dir3/newfile2
 mv dir1/dir2/foo dir1/dir2/foo_modified
-rm dri1/dir3/bar
+
 git add .
 git commit -m "commit3"
 
