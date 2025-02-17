@@ -1,5 +1,8 @@
-git checkout branch -b branch1
-git checkout branch -b branch2
+git checkout main
+git checkout -b branch1
+git checkout main
+git checkout -b branch2
+
 git checkout main
 cp ./dir3/bar ./dir3/bar_copy
 git add .
